@@ -17,7 +17,7 @@
 }  
 #clock-container .clock-doublepoints{
   width:25;
-  href:"images/doublepoints.png";
+  href:"chars/58.png";
 }
 #date-container {
   y: 2;
@@ -53,16 +53,18 @@
   x:100%-128;
   y:100%-30;  
   height: 30;
-  width: 100;
 }
-#battery-container image{
-  x:$;
+#battery-symbol{
   width: 24;
   height: 24;
 }
-#battery-container .battery-image{
-  x: 2;
-  href:"images/battery.png";
+#battery-text{
+  x:30;
+}
+#battery-text image{
+  x:$;
+  width: 24;
+  height: 24;
 }
 #battery-bar-container{
   x: 0;
@@ -85,37 +87,10 @@
 .stat-container{
   height: 40;
 }
-.stats-arc-container{
-  y:0;
+#activity-symbol{
   height: 40;
   width: 40;
 }
-.stats-arc-container circle{
-  cx:50%;
-  cy:50%;
-  r:50%;  
-  fill: gold;
-}
-.stats-arc-container arc{
-  height: 100%;
-  width: 100%;
-  arc-width:4;
-  start-angle:0;
-}
-.stats-arc-container .arc-background{
-  x:2;
-  y:2;
-  height: 90%;
-  width: 90%;
-  arc-width:1;
-  sweepAngle:360;
-}
-.stats-arc-container image{
-  x:20%;
-  y:20%;
-  height: 60%;
-  width: 60%;
-}  
 .stats-text-container {
   x:46;
 }
@@ -123,35 +98,4 @@
   x:$;
   width: 22;
   height: 40;
-}
-
-#steps-container .stats-arc-container{
-  fill:#FF0000;
-}
-#steps-container .stats-arc-container image{
-  href:"images/stat_steps_solid_48px.png";
-}
-#cals-container .stats-arc-container{
-  fill:#FF8000;
-}
-#cals-container .stats-arc-container image{
-  href:"images/stat_cals_solid_48px.png";
-}
-#am-container .stats-arc-container{
-  fill:green;
-}
-#am-container .stats-arc-container image{
-  href:"images/stat_am_solid_48px.png";
-}
-#dist-container .stats-arc-container{
-  fill:blue;
-}
-#dist-container .stats-arc-container image{
-  href:"images/stat_dist_solid_48px.png";
-}
-#elevation-container .stats-arc-container{
-  fill:#FF0080;
-}
-#elevation-container .stats-arc-container image{
-  href:"images/stat_floors_solid_48px.png";
 }

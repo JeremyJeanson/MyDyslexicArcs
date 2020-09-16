@@ -53,108 +53,93 @@
   </use>
   <svg id="stats-container">
     <svg id="steps-container" class="stat-container">
-        <svg class="stats-arc-container">
-          <arc class="arc-background"/>
-          <circle/>
-          <arc/>
-          <image/>
-        </svg>
-        <svg class="stats-text-container">
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-        </svg>
+      <use id="steps" href="#activity-symbol" class="steps">
+        <set href="image" attributeName="href" to="images/stat_steps_solid_48px.png"/>
+      </use>
+      <svg class="stats-text-container">
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+      </svg>
     </svg>
     <svg id="cals-container" class="stat-container">
-        <svg class="stats-arc-container">
-          <arc class="arc-background"/>
-          <circle/>
-          <arc/>
-          <image/>
-        </svg>
-        <svg class="stats-text-container">
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-        </svg>
+      <use id="calories" href="#activity-symbol" class="calories">
+        <set href="image" attributeName="href" to="images/stat_cals_solid_48px.png"/>
+      </use>
+      <svg class="stats-text-container">
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+      </svg>
     </svg>
     <svg id="am-container" class="stat-container">
-        <svg class="stats-arc-container">
-          <arc class="arc-background"/>
-          <circle/>
-          <arc/>
-          <image/>
-        </svg>
-        <svg class="stats-text-container">
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-        </svg>
+      <use id="activesminutes" href="#activity-symbol" class="activesminutes">
+        <set href="image" attributeName="href" to="images/stat_azm_solid_48px.png"/>
+      </use>
+      <svg class="stats-text-container">
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+      </svg>
     </svg>
     <svg id="dist-container" class="stat-container">
-        <svg class="stats-arc-container">
-          <arc class="arc-background"/>
-          <circle/>
-          <arc/>
-          <image/>
-        </svg>
-        <svg class="stats-text-container">
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-        </svg>
+      <use id="distance" href="#activity-symbol" class="distance">
+        <set href="image" attributeName="href" to="images/stat_dist_solid_48px.png"/>
+      </use>
+      <svg class="stats-text-container">
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+      </svg>
     </svg>
     <svg id="elevation-container" class="stat-container">
-        <svg class="stats-arc-container">
-          <arc class="arc-background"/>
-          <circle/>
-          <arc/>
-          <image/>
-        </svg>
-        <svg class="stats-text-container">
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-            <image />
-        </svg>
+      <use id="elevation" href="#activity-symbol" class="elevation">
+        <set href="image" attributeName="href" to="images/stat_floors_solid_48px.png"/>
+      </use>
+      <svg class="stats-text-container">
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+          <image />
+      </svg>
     </svg>
   </svg>  
   <svg id="battery-bar-container">
@@ -170,11 +155,13 @@
       gradient-color1="yellowgreen" gradient-color2="darkgreen"/>
   </svg>
   <svg id="battery-container">
-    <image class="battery-image" />
-    <image x="28"/>
-    <image />
-    <image />
-    <image />
+    <use id="battery-symbol" href="#battery"/>
+    <svg id="battery-text">
+      <image/>
+      <image />
+      <image />
+      <image />
+    </svg>
   </svg>
   <svg id="hrm-container">
     <use id="iconHRM" href="#heart-beat" />

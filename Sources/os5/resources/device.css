@@ -1,0 +1,44 @@
+/* Stats **********************************/ 
+#stats-container{
+    x:0;
+    y:50%-150;
+}
+.stat-container{
+    y:$+16;
+}
+#steps-container{
+    x:20;
+}
+#cals-container{
+    x:8;
+}
+#am-container{
+    x:5;
+}
+#dist-container{
+    x:8;
+}
+#elevation-container{
+    x:20;
+}
+/* Date and others **********************************/ 
+#date-container{
+    y:25%-48;
+}
+
+#hrm-container{
+    x:100%-150;
+    y:75%-50;
+}
+
+#battery-container{
+  x:100%-150;
+  y:100%-62; 
+}
+
+#battery-bar-container{
+    x: 60;
+    width: 100%-120;
+    y: 100%-10;
+    height: 10;
+  }
